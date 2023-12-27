@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Chara00",
+    "HpMax": 100.0,
+    "HpRegen": 1.0,
+    "Damage": 10.0,
+    "Defense": 5.0,
+    "MoveSpeed": 4.0,
+    "AttackSpeed": 2.0,
+    "Key": "Character_00"
+  },
+  {
+    "Name": "Chara01",
+    "HpMax": 50.0,
+    "HpRegen": 0.0,
+    "Damage": 2.0,
+    "Defense": 0.0,
+    "MoveSpeed": 2.0,
+    "AttackSpeed": 1.0,
+    "Key": "Character_01"
+  },
+  {
+    "Name": "Chara02",
+    "HpMax": 60.0,
+    "HpRegen": 0.1,
+    "Damage": 4.0,
+    "Defense": 0.5,
+    "MoveSpeed": 2.25,
+    "AttackSpeed": 1.25,
+    "Key": "Character_02"
+  },
+  {
+    "Name": "Chara03",
+    "HpMax": 70.0,
+    "HpRegen": 0.2,
+    "Damage": 6.0,
+    "Defense": 1.0,
+    "MoveSpeed": 2.5,
+    "AttackSpeed": 1.5,
+    "Key": "Character_03"
+  }
+]

@@ -14,7 +14,7 @@ public class Stat {
 
     public event Action<Stat> OnChanged;
     
-    public Stat(StatType type, float min = 0, float max = float.MaxValue, float value = 0) {
+    public Stat(StatType type, float value = 0, float min = 0, float max = float.MaxValue) {
         this.Type = type;
         this.Min = min;
         this.Max = max;

@@ -15,6 +15,16 @@ public class Status {
             _stats.Add((StatType)i, new Stat((StatType)i));
         }
     }
+    public Status(CreatureData data) {
+        _stats = new() {
+            [StatType.HpMax] = new(StatType.HpMax, data.HpMax),
+            [StatType.HpRegen] = new(StatType.HpRegen, data.HpRegen),
+            [StatType.Damage] = new(StatType.Damage, data.Damage),
+            [StatType.Defense] = new(StatType.Defense, data.Defense),
+            [StatType.MoveSpeed] = new(StatType.MoveSpeed, data.MoveSpeed),
+            [StatType.AttackSpeed] = new(StatType.AttackSpeed, data.AttackSpeed),
+        };
+    }
 
     public void AddModifiers(List<StatModifier> modifiers) {
         for (int i = 0; i < modifiers.Count; i++) {
@@ -29,10 +39,12 @@ public class Status {
 }
 
 public enum StatType {
-    Hp,
+    HpMax,
+    HpRegen,
     Damage,
     Defense,
-    Critical,
+    MoveSpeed,
+    AttackSpeed,
     COUNT,
 }
 public enum StatModifierType {

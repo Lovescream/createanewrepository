@@ -7,12 +7,14 @@ using UnityEngine;
 
 public class DataManager {
 
-    public Dictionary<string, CharacterData> Characters = new();
-    public Dictionary<string, ItemData> Items = new();
+    public Dictionary<string, CreatureData> Creatures = new();
+    //public Dictionary<string, CharacterData> Characters = new();
+    //public Dictionary<string, ItemData> Items = new();
 
     public void Initialize() {
-        Characters = LoadJson<CharacterData>();
-        Items = LoadJson<ItemData>();
+        Creatures = LoadJson<CreatureData>();
+        //Characters = LoadJson<CharacterData>();
+        //Items = LoadJson<ItemData>();
     }
 
     private Dictionary<string, T> LoadJson<T>() where T : Data {

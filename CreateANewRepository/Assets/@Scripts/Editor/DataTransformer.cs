@@ -16,8 +16,9 @@ public class DataTransformer : EditorWindow {
 
     [MenuItem("Tools/ParseExcel")]
     public static void ParseExcel() {
-        ParseData<CharacterData>();
-        ParseData<ItemData>();
+        ParseData<CreatureData>();
+        //ParseData<CharacterData>();
+        //ParseData<ItemData>();
     }
 
     private static void ParseData<T>() where T : Data {

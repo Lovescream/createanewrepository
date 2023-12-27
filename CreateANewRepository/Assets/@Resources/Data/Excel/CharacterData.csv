@@ -1,0 +1,5 @@
+﻿Key,Name,Description,Hp,Damage,Defense,Critical
+Fighter,파이터,나는 짱 쎈 파이터이다,100,15,10,0
+Rogue,도적,나는 짱 쎈 도적이다,80,19,5,0
+Archer,궁수,나는 짱 쎈 궁수이다,90,18,4,0
+Carrot,당근,바니바니 당근당근,200,60,200,50

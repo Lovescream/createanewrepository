@@ -1,0 +1,44 @@
+﻿Key,Type,Name,Description,Cost,Modifiers
+Stick,Sword,막대기,나무막대기이다.,10,Damage_Add_1
+StoneSword,Sword,돌검,돌로 만든 검,100,Damage_Add_5
+StoneAxe,Axe,돌도끼,돌로 만든 도끼,100,Damage_Add_5
+StoneHammer,Hammer,돌망치,돌로 만든 망치,100,Damage_Add_5
+StoneShield,Shield,돌방패,돌로 만든 방패,100,Defense_Add_5
+StoneHelmet,Helmet,돌머리,멍청한 머리,100,Defense_Add_5
+StoneArmor,Armor,돌갑옷,돌로 만든 갑옷,100,Hp_Add_20
+StoneBoots,Boots,돌부츠,돌로 만든 신발,100,Critical_Add_5
+IronSword,Sword,철검,철로 만든 검,800,Damage_Add_10
+IronAxe,Axe,철도끼,철로 만든 도끼,800,Damage_Add_10
+IronHammer,Hammer,철망치,철로 만든 망치,800,Damage_Add_10
+IronShield,Shield,철방패,철로 만든 방패,800,Defense_Add_10
+IronHelmet,Helmet,철모자,철로 만든 모자,800,Defense_Add_10
+IronArmor,Armor,철갑옷,철로 만든 갑옷,800,Hp_Add_50
+IronBoots,Boots,철부츠,철로 만든 부츠,800,Critical_Add_10
+SilverSword,Sword,은검,은으로 만든 검,1313,Damage_Add_20
+SilverAxe,Axe,은도끼,은으로 만든 도끼,1313,Damage_Add_20
+SilverHammer,Hammer,은망치,은으로 만든 망치,1313,Damage_Add_20
+SilverShield,Shield,은방패,은으로 만든 방패,1313,Defense_Add_20
+SilverHelmet,Helmet,은모자,은으로 만든 모자,1313,Defense_Add_20
+SilverArmor,Armor,은갑옷,은으로 만든 갑옷,1313,Hp_Add_100
+SilverBoots,Boots,은부츠,은으로 만든 부츠,1313,Critical_Add_20
+GoldSword,Sword,금검,금으로 만든 검,2890,Damage_Add_30
+GoldAxe,Axe,금도끼,금으로 만든 도끼,2890,Damage_Add_30
+GoldHammer,Hammer,금망치,금으로 만든 망치,2890,Damage_Add_30
+GoldShield,Shield,금방패,금으로 만든 방패,2890,Defense_Add_30
+GoldHelmet,Helmet,금모자,금으로 만든 모자,2890,Defense_Add_30
+GoldArmor,Armor,금갑옷,금으로 만든 갑옷,2890,Hp_Add_200
+GoldBoots,Boots,금부츠,금으로 만든 부츠,2890,Critical_Add_30
+DiamondSword,Sword,다이아몬드칼,다이아몬드로 만든 검,4500,Damage_Add_55
+DiamondAxe,Axe,다이아몬드도끼,다이아몬드로 만든 도끼,4500,Damage_Add_55
+DiamondHammer,Hammer,다이아몬드망치,다이아몬드로 만든 망치,4500,Damage_Add_55
+DiamondShield,Shield,다이아몬드방패,다이아몬드로 만든 방패,4500,Defense_Add_55
+DiamondHelmet,Helmet,다이아몬드헬멧,다이아몬드로 만든 모자,4500,Defense_Add_55
+DiamondArmor,Armor,다이아몬드갑옷,다이아몬드로 만든 갑옷,4500,Hp_Add_500
+DiamondBoots,Boots,다이아몬드부츠,다이아몬드로 만든 부츠,4500,Critical_Add_50
+StarSword,Sword,별칼,별로 만든 칼,8000,Damage_Add_100
+StarAxe,Axe,별도끼,별로 만든 도끼,8000,Damage_Add_100
+StarHammer,Hammer,별망치,별로 만든 망치,8000,Damage_Add_100
+StarShield,Shield,별방패,별로 만든 방패,8000,Defense_Add_100
+StarHelmet,Helmet,별모자,별로 만든 모자,8000,Defense_Add_100
+StarArmor,Armor,별갑옷,별로 만든 갑옷,8000,Hp_Add_1000
+StarBoots,Boots,별부츠,별로 만든 신발,8000,Critical_Add_100

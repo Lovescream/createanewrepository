@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "파이터",
+    "Description": "나는 짱 쎈 파이터이다",
+    "Hp": 100.0,
+    "Damage": 15.0,
+    "Defense": 10.0,
+    "Critical": 0.0,
+    "Key": "Fighter"
+  },
+  {
+    "Name": "도적",
+    "Description": "나는 짱 쎈 도적이다",
+    "Hp": 80.0,
+    "Damage": 19.0,
+    "Defense": 5.0,
+    "Critical": 0.0,
+    "Key": "Rogue"
+  },
+  {
+    "Name": "궁수",
+    "Description": "나는 짱 쎈 궁수이다",
+    "Hp": 90.0,
+    "Damage": 18.0,
+    "Defense": 4.0,
+    "Critical": 0.0,
+    "Key": "Archer"
+  },
+  {
+    "Name": "당근",
+    "Description": "바니바니 당근당근",
+    "Hp": 200.0,
+    "Damage": 60.0,
+    "Defense": 200.0,
+    "Critical": 50.0,
+    "Key": "Carrot"
+  }
+]

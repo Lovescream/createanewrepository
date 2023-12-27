@@ -80,6 +80,17 @@ public class Creature : Thing {
         Initialize();
 
         this.Data = data;
+
+        _animator.runtimeAnimatorController = Main.Resource.Load<RuntimeAnimatorController>($"{Data.Key}.animController");
+
+        _collider.enabled = true;
+        if (_collider is BoxCollider2D boxCollider) {
+            Sprite sprite = _spriter.sprite;
+            float x = sprite.textureRect.width / sprite.pixelsPerUnit;
+            float y = sprite.textureRect.height / sprite.pixelsPerUnit;
+            boxCollider.size = new(x, y);
+        }
+
         SetStatus(isFullHp: true);
     }
     protected virtual void SetStatus(bool isFullHp = true) {

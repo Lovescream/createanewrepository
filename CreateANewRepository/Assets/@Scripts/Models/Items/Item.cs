@@ -19,25 +19,10 @@ public class Item {
 
     #endregion
 
-    #region Fields
-
-    private bool _isInitialized;
-
-    #endregion
-
-    public virtual bool Initialize() {
-        if (_isInitialized) return false;
-
-        _isInitialized = true;
-        return true;
-    }
-
-    public virtual void SetInfo(ItemData data) {
-        Initialize();
-
+    public Item(ItemData data, Creature owner = null) {
         this.Data = data;
+        this.Owner = owner;
 
         Modifiers = Data.Modifiers.ConvertAll(x => x.Copy());
     }
-
 }

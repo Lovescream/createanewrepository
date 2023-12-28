@@ -63,7 +63,7 @@ public class UI_StatInfo : UI_Base {
     private void SetValue(Stat stat) {
         float originValue = stat.OriginValue;
         float deltaValue = stat.Value - originValue;
-        GetText((int)Texts.txtStatValue).text = deltaValue == 0 ? $"{originValue}" : $"{originValue} <color=yellow>({deltaValue:+#;-#})</color>";
+        GetText((int)Texts.txtStatValue).text = deltaValue == 0 ? $"{originValue}" : $"{originValue} <color=yellow>({deltaValue:+0.###;-0.###})</color>";
     }
 
     #endregion

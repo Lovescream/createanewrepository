@@ -47,6 +47,30 @@ MonoBehaviour:
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bfa236254ba9334bb11cb69909b1486
+    m_Address: UI_Popup_ConfirmEquip.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02d9af76bef37d24d91b89f9e6381ca9
+    m_Address: UI_ItemSlot_Inventory.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2626d8f8fadfa1468bb3b886e92c103
+    m_Address: UI_StatModifierInfo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4efb4717595f6d1429f4018dff3672f3
+    m_Address: UI_Popup_Inventory.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a9beede57bec2ec48bfb1895ddb34421, type: 2}
   m_SchemaSet:

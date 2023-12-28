@@ -22,7 +22,7 @@ public class UI_StatusInfo : UI_Base {
         _status = status;
 
         this.gameObject.DestroyChilds();
-        for (int i=0;i<(int)StatType.COUNT; i++) {
+        for (int i = 0; i < (int)StatType.COUNT; i++) {
             UI_StatInfo statInfo = Main.UI.CreateSubItem<UI_StatInfo>(this.transform);
             statInfo.SetInfo(_status, (StatType)i);
         }

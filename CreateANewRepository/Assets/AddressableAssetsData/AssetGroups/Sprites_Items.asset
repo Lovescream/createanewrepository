@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sprites_Items
+  m_EditorClassIdentifier: 
+  m_GroupName: Sprites_Items
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9dc9407ce759f6f4da815d79c5500429
+  m_SerializeEntries:
+  - m_GUID: 8109ba5963465c545b2e8c81ff27a7b0
+    m_Address: DiamondArmor.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cc7f8139c7f4ed468776ae77176b86b
+    m_Address: DiamondAxe.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 611ce9fb2fa664f498e4138835dbb1f4
+    m_Address: DiamondBoots.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffdafc15448155141b5c81ddfc160b3e
+    m_Address: DiamondHammer.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a50689cd264883c41a0b8c3055cb1ad1
+    m_Address: DiamondHelmet.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b44ae0db97738944b7f7d6219be7c83
+    m_Address: DiamondShield.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7010f22c30b31a745aac8ab7760a7262
+    m_Address: DiamondSword.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3d1fb3d8b4f5e84aa221f33d42a698b
+    m_Address: GoldArmor.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fda56addca9922d4b932627fc413705f
+    m_Address: GoldAxe.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ac7ac8f635b2e048848160c667f4e73
+    m_Address: GoldBoots.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3325e0870e0e9104bb0352b378010cae
+    m_Address: GoldHammer.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbb2ba751a761d449819cd1674637acd
+    m_Address: GoldHelmet.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4b1507b1eb43f146a1c7b64b85d33df
+    m_Address: GoldShield.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 372473142da42e647a163137e75c787a
+    m_Address: GoldSword.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d43a4363b894074dbff049ebf8bab3b
+    m_Address: IronArmor.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2594ef1cbfea26349bdef95dc1f9b059
+    m_Address: IronAxe.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41152116586e45445b3c59da60619551
+    m_Address: IronBoots.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83c78f54be40a1b44ac8cc376b5e710d
+    m_Address: IronHammer.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1cdab07273deb84ea28ebcc6987681d
+    m_Address: IronHelmet.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8babaa789b8c87244b02ba0055a16db4
+    m_Address: IronShield.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dbb9bdf21454054db5414d5275387ab
+    m_Address: IronSword.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d1a96c29598da44b9a4864829690b3b
+    m_Address: SilverArmor.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f9943eaafc7c964698817d0a16f8793
+    m_Address: SilverAxe.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 246dd2bf1ceed0a41b7aeebed7168846
+    m_Address: SilverBoots.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec8bd112146356245a03432708298c73
+    m_Address: SilverHammer.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8e691b417fa0d941b1c2cac9a65f7be
+    m_Address: SilverHelmet.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8e742447de79784fae230827bc585c0
+    m_Address: SilverShield.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f53842bb1884d04686ae05e3f13cbab
+    m_Address: SilverSword.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf573310e8c467c429e66b55b2ef0eee
+    m_Address: StarArmor.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4261621e3082dc14b9bcb48225bcb213
+    m_Address: StarAxe.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29e42d5057ad2814898003d46d167cf8
+    m_Address: StarBoots.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdce770e399963745aa70056060c4b94
+    m_Address: StarHammer.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62d95e34214a9524ea4d2c5327ba89f3
+    m_Address: StarHelmet.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a2269075b1a732458e5f59db10dee0c
+    m_Address: StarShield.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f802d738422330488de29cbdf726b5e
+    m_Address: StarSword.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a31f68f9ac83fa947b251ed1946c3547
+    m_Address: Stick.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27a3c59a2b8b4ef40a617864aa08737f
+    m_Address: StoneArmor.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91b8d71aba17084418cf333a4bb4b628
+    m_Address: StoneAxe.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9009af8a927ec344aec825e9d8c9baf
+    m_Address: StoneBoots.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f02885daed883e4492dc52734e65d14
+    m_Address: StoneHammer.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 939b9c6adc7b06647956f1975681614d
+    m_Address: StoneHelmet.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0dc384f62c16a542a9556cab7662424
+    m_Address: StoneShield.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd41e175c1454414c84f3a6210dfec73
+    m_Address: StoneSword.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a9beede57bec2ec48bfb1895ddb34421, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d840055727336424f93c0541250ad23a, type: 2}
+    - {fileID: 11400000, guid: 11986c4157fc9804896003551030af98, type: 2}

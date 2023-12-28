@@ -11,6 +11,7 @@ public class Creature : Thing {
 
     public State<CreatureState> State { get; private set; }
     public Status Status { get; private set; }
+    public CreatureInventory Inventory { get; private set; }
 
     public float Hp {
         get => _hp;
@@ -98,6 +99,7 @@ public class Creature : Thing {
 
         SetStateEvent();
         SetStatus(isFullHp: true);
+        SetInventory();
     }
     protected virtual void SetStatus(bool isFullHp = true) {
         this.Status = new(Data);
@@ -114,6 +116,12 @@ public class Creature : Thing {
             _rigidbody.simulated = false;
             _animator.SetBool(AnimatorParameterHash_Dead, true);
         });
+    }
+    protected virtual void SetInventory() {
+        Inventory = new(this, new() {
+            [ItemType.Weapon] = 3,
+            [ItemType.Armor] = 3,
+        }, 20);
     }
 
     #endregion

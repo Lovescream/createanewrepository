@@ -85,6 +85,14 @@ public class ResourceManager {
         }
         return resource as T;
     }
+    public Sprite LoadSprite(string key) {
+        key = $"{key}[{key.Replace(".sprite","")}]";
+        if (_resources.TryGetValue(key, out UnityEngine.Object resource) && resource is Sprite sprite) {
+            return sprite;
+        }
+        Debug.LogError($"[ResourceManager] LoadSprite({key}): Failed to load sprite.");
+        return null;
+    }
 
     public void Unload<T>(string key) where T : UnityEngine.Object {
         if (!_resources.TryGetValue(key, out UnityEngine.Object resource)) {

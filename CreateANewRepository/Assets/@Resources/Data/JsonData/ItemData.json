@@ -1,6 +1,6 @@
 [
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "막대기",
     "Description": "나무막대기이다.",
     "Cost": 10.0,
@@ -14,7 +14,7 @@
     "Key": "Stick"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "돌검",
     "Description": "돌로 만든 검",
     "Cost": 100.0,
@@ -33,7 +33,7 @@
     "Key": "StoneSword"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "돌도끼",
     "Description": "돌로 만든 도끼",
     "Cost": 100.0,
@@ -47,7 +47,7 @@
     "Key": "StoneAxe"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "돌망치",
     "Description": "돌로 만든 망치",
     "Cost": 100.0,
@@ -66,7 +66,7 @@
     "Key": "StoneHammer"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "돌방패",
     "Description": "돌로 만든 방패",
     "Cost": 100.0,
@@ -80,7 +80,7 @@
     "Key": "StoneShield"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "돌머리",
     "Description": "멍청한 머리",
     "Cost": 100.0,
@@ -94,7 +94,7 @@
     "Key": "StoneHelmet"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "돌갑옷",
     "Description": "돌로 만든 갑옷",
     "Cost": 100.0,
@@ -108,7 +108,7 @@
     "Key": "StoneArmor"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "돌부츠",
     "Description": "돌로 만든 신발",
     "Cost": 100.0,
@@ -122,7 +122,7 @@
     "Key": "StoneBoots"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "철검",
     "Description": "철로 만든 검",
     "Cost": 800.0,
@@ -141,7 +141,7 @@
     "Key": "IronSword"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "철도끼",
     "Description": "철로 만든 도끼",
     "Cost": 800.0,
@@ -155,7 +155,7 @@
     "Key": "IronAxe"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "철망치",
     "Description": "철로 만든 망치",
     "Cost": 800.0,
@@ -174,7 +174,7 @@
     "Key": "IronHammer"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "철방패",
     "Description": "철로 만든 방패",
     "Cost": 800.0,
@@ -188,7 +188,7 @@
     "Key": "IronShield"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "철모자",
     "Description": "철로 만든 모자",
     "Cost": 800.0,
@@ -202,7 +202,7 @@
     "Key": "IronHelmet"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "철갑옷",
     "Description": "철로 만든 갑옷",
     "Cost": 800.0,
@@ -216,7 +216,7 @@
     "Key": "IronArmor"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "철부츠",
     "Description": "철로 만든 부츠",
     "Cost": 800.0,
@@ -230,7 +230,7 @@
     "Key": "IronBoots"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "은검",
     "Description": "은으로 만든 검",
     "Cost": 1313.0,
@@ -249,7 +249,7 @@
     "Key": "SilverSword"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "은도끼",
     "Description": "은으로 만든 도끼",
     "Cost": 1313.0,
@@ -263,7 +263,7 @@
     "Key": "SilverAxe"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "은망치",
     "Description": "은으로 만든 망치",
     "Cost": 1313.0,
@@ -282,7 +282,7 @@
     "Key": "SilverHammer"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "은방패",
     "Description": "은으로 만든 방패",
     "Cost": 1313.0,
@@ -296,7 +296,7 @@
     "Key": "SilverShield"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "은모자",
     "Description": "은으로 만든 모자",
     "Cost": 1313.0,
@@ -310,7 +310,7 @@
     "Key": "SilverHelmet"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "은갑옷",
     "Description": "은으로 만든 갑옷",
     "Cost": 1313.0,
@@ -324,7 +324,7 @@
     "Key": "SilverArmor"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "은부츠",
     "Description": "은으로 만든 부츠",
     "Cost": 1313.0,
@@ -338,7 +338,7 @@
     "Key": "SilverBoots"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "금검",
     "Description": "금으로 만든 검",
     "Cost": 2890.0,
@@ -357,7 +357,7 @@
     "Key": "GoldSword"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "금도끼",
     "Description": "금으로 만든 도끼",
     "Cost": 2890.0,
@@ -371,7 +371,7 @@
     "Key": "GoldAxe"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "금망치",
     "Description": "금으로 만든 망치",
     "Cost": 2890.0,
@@ -390,7 +390,7 @@
     "Key": "GoldHammer"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "금방패",
     "Description": "금으로 만든 방패",
     "Cost": 2890.0,
@@ -404,7 +404,7 @@
     "Key": "GoldShield"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "금모자",
     "Description": "금으로 만든 모자",
     "Cost": 2890.0,
@@ -418,7 +418,7 @@
     "Key": "GoldHelmet"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "금갑옷",
     "Description": "금으로 만든 갑옷",
     "Cost": 2890.0,
@@ -432,7 +432,7 @@
     "Key": "GoldArmor"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "금부츠",
     "Description": "금으로 만든 부츠",
     "Cost": 2890.0,
@@ -446,7 +446,7 @@
     "Key": "GoldBoots"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "다이아몬드칼",
     "Description": "다이아몬드로 만든 검",
     "Cost": 4500.0,
@@ -465,7 +465,7 @@
     "Key": "DiamondSword"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "다이아몬드도끼",
     "Description": "다이아몬드로 만든 도끼",
     "Cost": 4500.0,
@@ -484,7 +484,7 @@
     "Key": "DiamondAxe"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "다이아몬드망치",
     "Description": "다이아몬드로 만든 망치",
     "Cost": 4500.0,
@@ -498,7 +498,7 @@
     "Key": "DiamondHammer"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "다이아몬드방패",
     "Description": "다이아몬드로 만든 방패",
     "Cost": 4500.0,
@@ -512,7 +512,7 @@
     "Key": "DiamondShield"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "다이아몬드헬멧",
     "Description": "다이아몬드로 만든 모자",
     "Cost": 4500.0,
@@ -526,7 +526,7 @@
     "Key": "DiamondHelmet"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "다이아몬드갑옷",
     "Description": "다이아몬드로 만든 갑옷",
     "Cost": 4500.0,
@@ -540,7 +540,7 @@
     "Key": "DiamondArmor"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "다이아몬드부츠",
     "Description": "다이아몬드로 만든 부츠",
     "Cost": 4500.0,
@@ -554,7 +554,7 @@
     "Key": "DiamondBoots"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "별칼",
     "Description": "별로 만든 칼",
     "Cost": 8000.0,
@@ -573,7 +573,7 @@
     "Key": "StarSword"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "별도끼",
     "Description": "별로 만든 도끼",
     "Cost": 8000.0,
@@ -592,7 +592,7 @@
     "Key": "StarAxe"
   },
   {
-    "Type": 4,
+    "Type": 0,
     "Name": "별망치",
     "Description": "별로 만든 망치",
     "Cost": 8000.0,
@@ -611,7 +611,7 @@
     "Key": "StarHammer"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "별방패",
     "Description": "별로 만든 방패",
     "Cost": 8000.0,
@@ -625,7 +625,7 @@
     "Key": "StarShield"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "별모자",
     "Description": "별로 만든 모자",
     "Cost": 8000.0,
@@ -639,7 +639,7 @@
     "Key": "StarHelmet"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "별갑옷",
     "Description": "별로 만든 갑옷",
     "Cost": 8000.0,
@@ -653,7 +653,7 @@
     "Key": "StarArmor"
   },
   {
-    "Type": 6,
+    "Type": 1,
     "Name": "별부츠",
     "Description": "별로 만든 신발",
     "Cost": 8000.0,

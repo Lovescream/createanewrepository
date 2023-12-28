@@ -16,9 +16,9 @@ public static class Extension {
         return obj != null && obj.activeSelf;
     }
 
-    //public static bool IsValid(this Thing thing) {
-    //    return thing != null && thing.isActiveAndEnabled;
-    //}
+    public static bool IsValid(this Thing thing) {
+        return thing != null && thing.isActiveAndEnabled;
+    }
 
     public static void DestroyChilds(this GameObject obj) {
         Transform[] children = new Transform[obj.transform.childCount];

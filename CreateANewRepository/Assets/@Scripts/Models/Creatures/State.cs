@@ -9,7 +9,6 @@ public class State<T> where T : Enum {
         get => _current;
         set {
             if (_current.Equals(value)) return;
-            Debug.Log(value);
             _onExited[_current]?.Invoke();
             _current = value;
             _onEntered[_current]?.Invoke();
@@ -27,10 +26,9 @@ public class State<T> where T : Enum {
 
     public State() {
         foreach (T state in Enum.GetValues(typeof(T))) {
-            Debug.Log(state);
             _onEntered[state] = null;
             _onStay[state] = null;
-            _onEntered[state] = null;
+            _onExited[state] = null;
         }
     }
 

@@ -7,6 +7,7 @@ public class ObjectManager {
     
     public Player Player { get; private set; }
     public List<Enemy> Enemies { get; private set; } = new();
+    public List<Projectile> Projectiles { get; private set; } = new();
 
     public Transform EnemyParent {
         get {
@@ -18,6 +19,7 @@ public class ObjectManager {
 
     public void Clear() {
         Enemies.Clear();
+        Projectiles.Clear();
     }
 
     public Player SpawnPlayer(string key, Vector2 position) {
@@ -30,6 +32,19 @@ public class ObjectManager {
         Enemies.Add(enemy);
         enemy.SetInfo(Main.Data.Creatures[key]);
         return enemy;
+    }
+    public void DespawnEnemy(Enemy obj) {
+        Enemies.Remove(obj);
+        Despawn(obj);
+    }
+    public Projectile SpawnProjectile(Vector2 position) {
+        Projectile projectile = Spawn<Projectile>("", position);
+        Projectiles.Add(projectile);
+        return projectile;
+    }
+    public void DespawnProjectile(Projectile obj) {
+        Projectiles.Remove(obj);
+        Despawn(obj);
     }
 
     private T Spawn<T>(string key, Vector2 position) where T : Thing {
@@ -47,6 +62,9 @@ public class ObjectManager {
         obj.transform.position = position;
 
         return obj.GetOrAddComponent<T>();
+    }
+    private void Despawn<T>(T obj) where T : Thing {
+        Main.Resource.Destroy(obj.gameObject);
     }
 
 }

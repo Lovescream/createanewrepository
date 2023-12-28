@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs_Creatures
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs_Creatures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e4b98d9f8f4f61947ae60357229d2a49
+  m_SerializeEntries:
+  - m_GUID: ffbb3c9f8449fca4b8e4757532fa5464
+    m_Address: Player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed0b7f317d3eae548ba5f632440241cb
+    m_Address: Enemy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a9beede57bec2ec48bfb1895ddb34421, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b81579f2c9735824da2f6e743dbe2cf2, type: 2}
+    - {fileID: 11400000, guid: b7438089e0299834daba152498f49d9f, type: 2}

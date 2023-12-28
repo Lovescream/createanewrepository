@@ -35,7 +35,9 @@ public class BaseScene : MonoBehaviour {
         Object obj = FindObjectOfType<EventSystem>();
         if (obj == null) Main.Resource.Instantiate("EventSystem.prefab").name = "@EventSystem";
 
-        GameObject.Find("Test").GetComponent<SpriteRenderer>().sprite = Main.Resource.Load<Sprite>("UI[Title 2]");
+        Main.Object.SpawnPlayer("Character_00", Vector2.zero);
+        Main.Object.SpawnEnemy("Character_01", new(4, 0));
+        Main.Object.SpawnEnemy("Character_02", new(0, 4));
 
         _initialized = true;
         return true;

@@ -9,7 +9,7 @@ public class State<T> where T : Enum {
         get => _current;
         set {
             if (_current.Equals(value)) return;
-
+            Debug.Log(value);
             _onExited[_current]?.Invoke();
             _current = value;
             _onEntered[_current]?.Invoke();
@@ -25,17 +25,35 @@ public class State<T> where T : Enum {
     private readonly Dictionary<T, Action> _onStay = new();
     private readonly Dictionary<T, Action> _onExited = new();
 
-    public Action OnEntered(T state) {
+    public State() {
+        foreach (T state in Enum.GetValues(typeof(T))) {
+            Debug.Log(state);
+            _onEntered[state] = null;
+            _onStay[state] = null;
+            _onEntered[state] = null;
+        }
+    }
+
+    public void AddOnEntered(T state, Action cb) {
         if (!_onEntered.ContainsKey(state)) _onEntered[state] = default;
-        return _onEntered[state];
+        _onEntered[state] += cb;
     }
-    public Action OnStay(T state) {
+    public void AddOnStay(T state, Action cb) {
         if (!_onStay.ContainsKey(state)) _onStay[state] = default;
-        return _onStay[state];
+        _onStay[state] += cb;
     }
-    public Action OnExited(T state) {
+    public void AddOnExited(T state, Action cb) {
         if (!_onExited.ContainsKey(state)) _onExited[state] = default;
-        return _onExited[state];
+        _onExited[state] += cb;
+    }
+
+    public void Clear() {
+        _onEntered.Clear();
+        _onStay.Clear();
+        _onExited.Clear();
+        _transitionTime = 0;
+        _current = default;
+        _nextState = default;
     }
 
     public void OnStay() {

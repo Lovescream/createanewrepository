@@ -18,11 +18,11 @@ public class Creature : Thing {
             if (_hp == value) return;
             if (value <= 0) {
                 _hp = 0;
+                State.Current = CreatureState.Dead;
 
             }
             else if (value >= Status[StatType.HpMax].Value) {
                 _hp = Status[StatType.HpMax].Value;
-                State.Current = CreatureState.Dead;
             }
             else _hp = value;
             OnChangedHp?.Invoke(_hp);
@@ -37,6 +37,7 @@ public class Creature : Thing {
     #region Fields
 
     protected static readonly int AnimatorParameterHash_Speed = Animator.StringToHash("Speed");
+    protected static readonly int AnimatorParameterHash_Hit = Animator.StringToHash("Hit");
     protected static readonly int AnimatorParameterHash_Dead = Animator.StringToHash("Dead");
 
     // State, Status.
@@ -82,6 +83,7 @@ public class Creature : Thing {
         this.Data = data;
 
         _animator.runtimeAnimatorController = Main.Resource.Load<RuntimeAnimatorController>($"{Data.Key}.animController");
+        _animator.SetBool(AnimatorParameterHash_Dead, false);
 
         _collider.enabled = true;
         if (_collider is BoxCollider2D boxCollider) {
@@ -90,12 +92,23 @@ public class Creature : Thing {
             float y = sprite.textureRect.height / sprite.pixelsPerUnit;
             boxCollider.size = new(x, y);
         }
+        _rigidbody.simulated = true;
 
+        SetStateEvent();
         SetStatus(isFullHp: true);
     }
     protected virtual void SetStatus(bool isFullHp = true) {
         this.Status = new(Data);
         Hp = Status[StatType.HpMax].Value;
+    }
+    protected virtual void SetStateEvent() {
+        State = new();
+        State.AddOnEntered(CreatureState.Hit, () => _animator.SetTrigger(AnimatorParameterHash_Hit));
+        State.AddOnEntered(CreatureState.Dead, () => {
+            _collider.enabled = false;
+            _rigidbody.simulated = false;
+            _animator.SetBool(AnimatorParameterHash_Dead, true);
+        });
     }
 
     #endregion

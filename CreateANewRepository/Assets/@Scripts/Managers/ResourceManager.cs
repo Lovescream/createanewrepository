@@ -76,6 +76,8 @@ public class ResourceManager {
         return isLoaded;
     }
 
+    public bool IsExist(string key) => _resources.ContainsKey(key);
+
     public T Load<T>(string key) where T : UnityEngine.Object {
         if (!_resources.TryGetValue(key, out UnityEngine.Object resource)) {
             Debug.LogError($"[ResourceManager] Load<{typeof(T)}>({key}): Failed to load resource.");

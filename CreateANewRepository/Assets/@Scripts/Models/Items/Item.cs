@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : Thing {
+public class Item {
 
     #region Properties
 
@@ -19,9 +19,16 @@ public class Item : Thing {
 
     #endregion
 
-    public override bool Initialize() {
-        if (!base.Initialize()) return false;
+    #region Fields
 
+    private bool _isInitialized;
+
+    #endregion
+
+    public virtual bool Initialize() {
+        if (_isInitialized) return false;
+
+        _isInitialized = true;
         return true;
     }
 

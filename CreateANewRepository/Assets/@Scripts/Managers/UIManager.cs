@@ -122,4 +122,18 @@ public class UIManager {
     }
 
     #endregion
+
+    #region InGame
+
+    public void ShowDamageText(Vector2 position, float damage) {
+        DamageText text = Main.Resource.Instantiate("DamageText.prefab", pooling: true).GetOrAddComponent<DamageText>();
+        text.SetInfo(position, damage);
+    }
+    public UI_HpBar ShowHpBar(Creature creature, float duration = 1) {
+        UI_HpBar bar = Main.Resource.Instantiate("UI_HpBar.prefab", pooling: true).GetOrAddComponent<UI_HpBar>();
+        bar.SetInfo(creature, duration);
+        return bar;
+    }
+
+    #endregion
 }

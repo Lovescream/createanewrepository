@@ -15,4 +15,5 @@ public class ItemData : Data {
 public enum ItemType {
     Weapon,
     Armor,
+    COUNT,
 }

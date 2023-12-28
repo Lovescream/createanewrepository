@@ -20,7 +20,7 @@ public class BaseScene : MonoBehaviour {
     }
 
     protected virtual void OnLoadAsync(string key, int count, int totalCount) {
-        Debug.Log($"[BaseScene] Load asset {key} ({count} / {totalCount})");
+        //Debug.Log($"[BaseScene] Load asset {key} ({count} / {totalCount})");
     }
     protected virtual void OnLoadAsyncCompleted() {
         Main.Data.Initialize();
@@ -34,10 +34,6 @@ public class BaseScene : MonoBehaviour {
 
         Object obj = FindObjectOfType<EventSystem>();
         if (obj == null) Main.Resource.Instantiate("EventSystem.prefab").name = "@EventSystem";
-
-        Main.Object.SpawnPlayer("Character_00", Vector2.zero);
-        Main.Object.SpawnEnemy("Character_01", new(4, 0));
-        Main.Object.SpawnEnemy("Character_02", new(0, 4));
 
         _initialized = true;
         return true;

@@ -13,13 +13,6 @@ public class ItemData : Data {
 }
 
 public enum ItemType {
-    Sword,
-    Axe,
-    Hammer,
-    Shield,
-    WEAPON,
-    Helmet,
+    Weapon,
     Armor,
-    Boots,
-    ARMOR,
 }

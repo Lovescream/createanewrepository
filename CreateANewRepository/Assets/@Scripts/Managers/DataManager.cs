@@ -9,12 +9,12 @@ public class DataManager {
 
     public Dictionary<string, CreatureData> Creatures = new();
     //public Dictionary<string, CharacterData> Characters = new();
-    //public Dictionary<string, ItemData> Items = new();
+    public Dictionary<string, ItemData> Items = new();
 
     public void Initialize() {
         Creatures = LoadJson<CreatureData>();
         //Characters = LoadJson<CharacterData>();
-        //Items = LoadJson<ItemData>();
+        Items = LoadJson<ItemData>();
     }
 
     private Dictionary<string, T> LoadJson<T>() where T : Data {

@@ -40,6 +40,7 @@ public class UI_HpBar : UI_Base {
         this._owner = owner;
         this.transform.SetParent(_owner.transform);
         this.transform.localPosition = new(0, -0.2f);
+        this._hpMax = owner.Status[StatType.HpMax].Value;
         this._owner.Status[StatType.HpMax].OnChanged += SetMax;
         this._owner.OnChangedHp += Refresh;
         Refresh(this._owner.Hp);

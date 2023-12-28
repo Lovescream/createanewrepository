@@ -21,4 +21,7 @@ public class StatModifier {
         Type = (StatModifierType)Enum.Parse(typeof(StatModifierType), strings[1]);
         Value = float.Parse(strings[2]);
     }
+    public StatModifier Copy() {
+        return new(Stat, Type, Value);
+    }
 }

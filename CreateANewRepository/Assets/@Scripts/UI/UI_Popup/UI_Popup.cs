@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class UI_Popup : UI_Base, IPointerDownHandler, IPointerUpHandler, IDragHandler {
+public class UI_Popup : UI_Base, IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler {
 
     protected Canvas _canvas;
     protected Transform _panel;
@@ -32,10 +32,14 @@ public class UI_Popup : UI_Base, IPointerDownHandler, IPointerUpHandler, IDragHa
 
     public void OnPointerDown(PointerEventData eventData) {
         if (_panel == null) return;
-        _originPosition = _panel.position;
-        _dragStartPosition = eventData.position;
 
         this.SetPopupToFront();
+    }
+
+    public void OnBeginDrag(PointerEventData eventData) {
+        _originPosition = _panel.position;
+        _dragStartPosition = eventData.position;
+        _dragOffset = Vector2.zero;
     }
 
     public void OnDrag(PointerEventData eventData) {
@@ -44,8 +48,7 @@ public class UI_Popup : UI_Base, IPointerDownHandler, IPointerUpHandler, IDragHa
         _panel.position = _originPosition + _dragOffset;
     }
 
-    public void OnPointerUp(PointerEventData eventData) {
-        if (_panel == null) return;
+    public void OnEndDrag(PointerEventData eventData) {
         _originPosition = _panel.position;
         _dragStartPosition = Vector2.zero;
         _dragOffset = Vector2.zero;

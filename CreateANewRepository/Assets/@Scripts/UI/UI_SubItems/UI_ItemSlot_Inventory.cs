@@ -57,8 +57,9 @@ public class UI_ItemSlot_Inventory : UI_ItemSlot, IPointerDownHandler{
 
     private void Refresh(Item item) {
         if (Inventory == null || item != Item) return;
+        Debug.Log(this.GetComponent<RectTransform>().sizeDelta.x);
         GetObject((int)Objects.EquipMark).SetActive(Inventory.IsEquip(item));
-        GetObject((int)Objects.EquipMark).GetComponent<RectTransform>().sizeDelta = this.GetComponent<RectTransform>().sizeDelta / 4;
+        //GetObject((int)Objects.EquipMark).GetComponent<RectTransform>().sizeDelta = this.GetComponent<RectTransform>().sizeDelta / 4;
     }
 
     private void OnClickItemSlot() {

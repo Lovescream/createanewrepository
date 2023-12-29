@@ -43,8 +43,11 @@ public class CreatureInventory : Inventory {
         return true;
     }
 
-    public bool Equip(Item item) {
-        if (!CanEquip(item)) return false;
+    public bool Equip(Item item, bool change = true) {
+        if (_equips[item.Type].Count >= _maxCounts[item.Type]) {
+            if (!change) return false;
+            UnEquip(_equips[item.Type][0]);
+        }
 
         _equips[item.Type].Add(item);
 
